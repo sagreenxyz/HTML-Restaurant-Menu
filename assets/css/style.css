@@ -1,3 +1,17 @@
+
+.full-width {
+    width: 100vw;
+    margin: 0rem -50vw;
+    position: relative;
+    left: 50%;
+    right: 50%;
+    background-color: red !important;
+  }
+
+.full-width p {
+    color: white;
+}
+
 html,
 body {
     margin: 0;
@@ -51,6 +65,7 @@ nav a {
 
 nav a:hover {
     color: red;
+    text-emphasis: double-circle red;
     -webkit-text-emphasis: double-circle red;
 }
 
