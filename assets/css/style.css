@@ -65,6 +65,9 @@ nav a {
 
 nav a:hover {
     color: red;
+}
+
+.nav-highlight {
     text-emphasis: double-circle red;
     -webkit-text-emphasis: double-circle red;
 }
